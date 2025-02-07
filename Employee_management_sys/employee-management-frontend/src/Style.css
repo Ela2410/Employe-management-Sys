@@ -1,0 +1,170 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 30px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Employee List Styles */
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  li span {
+    display: block;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Mobile Styles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    form input,
+    form button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    li {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      width: 85%;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    form input,
+    form button {
+      padding: 14px;
+      font-size: 16px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    li {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 1025px) {
+    .container {
+      width: 80%;
+    }
+  
+    form {
+      padding: 25px;
+    }
+  
+    form input,
+    form button {
+      padding: 15px;
+      font-size: 18px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    li {
+      font-size: 18px;
+    }
+  }
+  
